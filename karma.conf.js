@@ -132,7 +132,7 @@ module.exports = function(config) {
     browsers = ['FirefoxHeadless', 'ChromeHeadless'];
   } else {
     console.log('Running locally since SAUCE_USERNAME and SAUCE_ACCESS_KEY environment variables are not set.');
-    browsers = ['Firefox', 'Chrome'];
+    browsers = [/* 'Firefox',*/ 'Chrome'];
   }
 
   config.set({
